@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftJobsDemo}",
+            "name": "Debug SwiftJobsDemo",
+            "program": "${workspaceFolder:SwiftJobsDemo}/.build/debug/SwiftJobsDemo",
+            "preLaunchTask": "swift: Build Debug SwiftJobsDemo"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftJobsDemo}",
+            "name": "Release SwiftJobsDemo",
+            "program": "${workspaceFolder:SwiftJobsDemo}/.build/release/SwiftJobsDemo",
+            "preLaunchTask": "swift: Build Release SwiftJobsDemo"
+        }
+    ]
+}
